@@ -1,3 +1,49 @@
-p {
-	color: red;
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#sidebar {
+	align-items: left;
+	width: 60px;
+	height: 500px;
+	background-color: red;
+	border-radius: 0;
+	border: none;
+	position: relative;
+}
+
+#sidebar:hover {
+	background-color: orange;
+	cursor: crosshair;
+}
+
+#openbar {
+	position: absolute;
+	background-color: lightblue;
+	width: 0px;
+	height: 100px;
+	overflow: auto;
+
+}
+
+#openbar p {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: helvetica;
+}
+
+.show {
+	height: 500px;
+	width: 1200px;
+}
+
+#countdown {
+	margin-left: 1000px;
+}
+
+#countdown p {
+	font-size: 40px;
+	font-weight: bold;
+	color: pink;
 }
