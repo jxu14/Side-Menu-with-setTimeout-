@@ -7,10 +7,12 @@
 	align-items: left;
 	width: 60px;
 	height: 500px;
-	background-color: red;
+	background-color: gold;
 	border-radius: 0;
 	border: none;
 	position: relative;
+	display: inline-block;
+	font-size: 20px;
 }
 
 #sidebar:hover {
@@ -19,7 +21,10 @@
 }
 
 #openbar {
+
 	position: absolute;
+	top: 0px;
+	left:60px;
 	background-color: lightblue;
 	width: 0px;
 	height: 500px;
@@ -39,7 +44,14 @@
 }
 
 #countdown {
-	margin-left: 1000px;
+	position: absolute;
+	display: inline-block;
+	margin-left: 300px;
+	top: 100px;
+	font-size: 50px;
+	font-family: impact;
+	color: red;
+
 }
 
 #countdown p {
@@ -47,3 +59,21 @@
 	font-weight: bold;
 	color: pink;
 }
+
+#another {
+	position: absolute;
+	display: inline-block;
+	margin-left: 300px;
+	top: 300px;
+	font-size: 50px;
+	font-family: impact;
+	color: red;
+
+}
+
+#another p {
+	font-size: 40px;
+	font-weight: bold;
+	color: pink;
+}
+
